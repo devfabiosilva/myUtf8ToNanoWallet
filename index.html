@@ -1,0 +1,58 @@
+<!doctype html>
+
+<!--
+/*
+ * convert_to_nano_wallet.js
+ * This file is part of convert_to_nano_wallet.js
+ *
+ * Copyright (C) 2019 - Fábio Pereira da Silva
+ *
+ * convert_to_nano_wallet.js is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * convert_to_nano_wallet.js is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with convert_to_nano_wallet.js. If not, see <http://www.gnu.org/licenses/>.
+ */
+-->
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Convert UTF-8 to Nano Example</title>
+    </head>
+    <body>
+        <h2>Example</h2>
+        <script src="dist/utf8tonano.js"></script>
+        <script>
+     	   function convertToNano() {
+				var res1;
+				var res2;
+				var myText=document.getElementById("entr").value;
+				if (myText) {
+					res1=utf8nano.fConvertFinalV2(myText, "xrb");
+					if (res1)
+						document.getElementById("mySpan").innerHTML="Generated wallet: "+res1;
+					else
+						alert("Error. Can't convert this text '"+myText+"'.");
+					res2=utf8nano.fConvertFinalV2(myText, "nano");
+					if (res2)
+						document.getElementById("mySpan").innerHTML+="<br>Generated wallet: "+res2;
+					else
+						alert("Error. Can't convert this text '"+myText+"'.");
+				} else
+					alert("Please, write a valid text!");
+     	   }
+        </script>
+        <input type="text" id="entr" placeholder="Your text here"/>
+        <button onclick="convertToNano()">Convert to Nano Wallet</button><br>
+        <span id="mySpan"></span>
+    </body>
+</html>
+
