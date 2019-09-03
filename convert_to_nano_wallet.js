@@ -104,9 +104,7 @@ function fConvertFinalV2(val, prefix)
 	return prefix+"_"+fArray.substring(4);
 }
 
-console.log(fConvertFinalV2("Hello world", "nano"));
-console.log(fConvertFinalV2("Fábio Pereira da Silva", "nano"));
-console.log(fConvertFinalV2("Hello in corean: 안녕하세요 ^__^", "xrb"));
-
-
+console.log(fConvertFinalV2("Hello world", "nano")); // returns nano_1k57fjp8ya5qfxs8rs1111111111111111111111111111111111ij8zy1x5
+console.log(fConvertFinalV2("Fábio Pereira da Silva", "nano")); // returns nano_1jp5n7j8kus1c3kq6sdbgbik1s5363bpku5pe611111111111111bhhztp6w
+console.log(fConvertFinalV2("Hello in corean: 안녕하세요 ^__^", "xrb")); // returns xrb_1k57fjp8ya5bfri88uukeoipwgj1xkcrjtw7kqpsd89eikwgs8nnuug9764s
 
