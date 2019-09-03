@@ -1,0 +1,31 @@
+{
+  "name": "convertutf8tonanowallet",
+  "version": "1.0.0",
+  "description": "Convert 32 bytes long utf-8 text in Nano Wallet",
+  "main": "convert_to_nano_wallet.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devfabiosilva/myUtf8ToNanoWallet.git"
+  },
+  "keywords": [
+    "Nano",
+    "ImagiNano",
+    "Cryptocurrency",
+    "cryptography",
+    "Node.JS",
+    "Node",
+    "JavaScript"
+  ],
+  "author": "Fábio Pereira da Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devfabiosilva/myUtf8ToNanoWallet/issues"
+  },
+  "homepage": "https://github.com/devfabiosilva/myUtf8ToNanoWallet#readme",
+  "dependencies": {
+    "blakejs": "^1.1.0"
+  }
+}
