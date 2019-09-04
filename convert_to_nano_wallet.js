@@ -32,8 +32,8 @@ function fConvertFinalV2(val, prefix)
 
 	var val_tmp = new TextEncoder("utf-8").encode(val);
 
-	if (val.length>32) {
-		console.log("Erro");
+	if (val_tmp.length>32) {
+		//console.log("Erro");
 		return null;
 	}
 
