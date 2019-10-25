@@ -1,22 +1,9 @@
 /*
- * convert_to_nano_wallet.js
- * This file is part of convert_to_nano_wallet.js
- *
- * Copyright (C) 2019 - Fábio Pereira da Silva
- *
- * convert_to_nano_wallet.js is free software; you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation; either version 2 of the License, or
- * (at your option) any later version.
- *
- * convert_to_nano_wallet.js is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with convert_to_nano_wallet.js. If not, see <http://www.gnu.org/licenses/>.
- */
+	AUTHOR: Fábio Pereira da Silva
+	YEAR: 2019
+	LICENSE: MIT
+	EMAIL: fabioegel@gmail.com or fabioegel@protonmail.com
+*/
 
 
 //Ter 03 Set 2019 15:56:56 -03
@@ -112,3 +99,4 @@ console.log(fConvertFinalV2("Hello world", "nano")); // returns nano_1k57fjp8ya5
 console.log(fConvertFinalV2("Fábio Pereira da Silva", "nano")); // returns nano_1jp5n7j8kus1c3kq6sdbgbik1s5363bpku5pe611111111111111bhhztp6w
 console.log(fConvertFinalV2("Hello in corean: 안녕하세요 ^__^", "xrb")); // returns xrb_1k57fjp8ya5bfri88uukeoipwgj1xkcrjtw7kqpsd89eikwgs8nnuug9764s
 */
+
