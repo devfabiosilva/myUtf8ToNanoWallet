@@ -26,7 +26,8 @@
   },
   "homepage": "https://github.com/devfabiosilva/myUtf8ToNanoWallet#readme",
   "dependencies": {
-    "blakejs": "^1.1.0"
+    "blakejs": "^1.1.0",
+    "serialize-javascript": "^2.1.2"
   },
   "devDependencies": {
     "webpack": "^4.39.3",
